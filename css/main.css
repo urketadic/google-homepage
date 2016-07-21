@@ -3,7 +3,7 @@ body {
 	background: black;
 }
 .container {
-  	width: 100%;
+  width: 100%;
 }
 
 /* Top right navigation of google */
@@ -29,9 +29,9 @@ body {
 
 .buttons {
 	margin: 30px auto;
-        text-align: center;
-	width: inherit;
-	display: inline-block;	
+  text-align: center;
+  width: inherit;
+  display: inline-block;	
 }
 
 .input-group{
@@ -41,16 +41,16 @@ body {
 
 /* Footer */
 .footer {
-	position : absolute;
-	bottom : 0;
-	height : 40px;
-	margin-top : 40px;
-	background: black;
-	display: block;
-	width: 100%;	
- 	font-size: small;
-	line-height: 40px;
-	visibility: visible;
+	 position : absolute;
+   bottom : 0;
+   height : 40px;
+   margin-top : 40px;
+   background: black;
+	 display: block;
+	 width: 100%;	
+   font-size: small;
+	 line-height: 40px;
+	 visibility: visible;
 }
 
 #footer-element {
@@ -78,6 +78,7 @@ a:hover {
 }
 @media screen and (max-width: 225px) {
   #google{height:50px;width:150px;}
+  #mobile{height:30px;width:90px; font-size:x-small;}
 }
 @media screen and (max-width: 160px) {
   #google{height:40px;width:120px;}
