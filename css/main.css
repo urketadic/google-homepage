@@ -1,85 +1,114 @@
 /* General */
+
 body {
-	background: black;
+  background: black;
 }
+
 .container {
   width: 100%;
 }
 
+
 /* Top right navigation of google */
+
 .navbar {
-	max-height: 40px;
-	background: black;
+  max-height: 40px;
+  background: black;
 }
 
 
 /* Google Search and buttons */
+
 #google {
-	height: 92px;
-	width: 272px;
-	margin-bottom: 25px;
-	margin-top: 200px;
-	position: center;
+  height: 92px;
+  width: 272px;
+  margin-bottom: 25px;
+  margin-top: 200px;
+  position: center;
 }
 
 #microphone {
-	height: 20px;
-	width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .buttons {
-	margin: 30px auto;
+  margin: 30px auto;
   text-align: center;
   width: inherit;
-  display: inline-block;	
+  display: inline-block;
 }
 
-.input-group{
-	max-width: 450px;
+.input-group {
+  max-width: 450px;
 }
 
 
 /* Footer */
+
 .footer {
-	 position : absolute;
-   bottom : 0;
-   height : 40px;
-   margin-top : 40px;
-   background: black;
-	 display: block;
-	 width: 100%;	
-   font-size: small;
-	 line-height: 40px;
-	 visibility: visible;
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  margin-top: 40px;
+  background: black;
+  display: block;
+  width: 100%;
+  font-size: small;
+  line-height: 40px;
+  visibility: visible;
 }
 
 #footer-element {
-	float: right;
-	margin-right: 30px;
+  float: right;
+  margin-right: 30px;
 }
 
 #footer-element2 {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 a:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 
 /* Mobile Fix */
+
 @media screen and (max-width: 400px) {
-  .footer{font-size:x-small;}
+  .footer {
+    font-size: x-small;
+  }
 }
+
 @media screen and (max-width: 320px) {
-  #mobile-fix {display:none;}
-  .footer{display: none;}
-  #google {height: 70px;width: 210px;}
+  #mobile-fix {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  #google {
+    height: 70px;
+    width: 210px;
+  }
 }
+
 @media screen and (max-width: 225px) {
-  #google{height:50px;width:150px;}
-  #mobile{height:30px;width:90px; font-size:x-small;}
+  #google {
+    height: 50px;
+    width: 150px;
+  }
+  #mobile {
+    height: 30px;
+    width: 90px;
+    font-size: x-small;
+  }
 }
+
 @media screen and (max-width: 160px) {
-  #google{height:40px;width:120px;}
+  #google {
+    height: 40px;
+    width: 120px;
+  }
 }
